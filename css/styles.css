@@ -19,3 +19,32 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+.input__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+.input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+.submit__button {
+  padding: 11px 22px;
+  background-color: white;
+  color: #000;
+  border: 1px solid #ccc;
+  font-weight: bolt;
+}
+input[type="email"]{
+  border-color: black;
+}
+input[type="email"]:valid {
+  border-color: greenyellow;
+}
+input[type="email"]:invalid {
+  border-color: red;
+}
+
+
